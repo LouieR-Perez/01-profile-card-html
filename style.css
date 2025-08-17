@@ -1,0 +1,93 @@
+/*
+  Style the profile image:
+  - Make it circular
+  - Set a fixed size
+  - Add margin below for spacing
+*/
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*
+  Style the list of links:
+  - Remove bullet points
+  - Add spacing between items
+  - Center the list
+*/
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+}
+
+.profile-card li {
+  margin-bottom: 0.5em;
+}
+
+/*
+  Set the background color of the page to a light blue shade.
+  Center all text horizontally.
+  Apply a clean, modern sans-serif font to the whole page.
+*/
+body {
+  background-color: #e0f7fa;
+  text-align: center;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+
+/*
+  Style the main heading:
+  - Make it large and bold for emphasis
+  - Use a dark blue color for contrast
+*/
+h1 {
+  font-size: 2.5em;
+  color: #0d2357;
+  /*margin-top: 2em;*/
+}
+
+
+/*
+  Style the subheading:
+  - Slightly smaller than the main heading
+  - Use a soft grey color for subtlety
+*/
+h2 {
+  font-size: 1.5em;
+  color: slategray;
+  /*margin-top: 0.5em;*/
+}
+
+
+/*
+  Style the paragraph text:
+  - Use a comfortable font size for readability
+  - Increase line spacing for better legibility
+*/
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+
+/*
+  Style the profile card container:
+  - White background for contrast against the page
+  - Light border and rounded corners for a card effect
+  - Limit the width and center the card on the page
+  - Add padding for space inside the card
+  - Subtle box shadow for depth
+*/
+.profile-card {
+  background: #fff;
+  border: 1px solid #b0b6be;
+  border-radius: 12px;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 2em 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
