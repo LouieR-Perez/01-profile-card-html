@@ -1,4 +1,16 @@
 /*
+  Style the icons next to each link:
+  - Set a consistent size
+  - Align vertically with the link text
+  - Add a little space to the right
+*/
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+/*
   Style the profile image:
   - Make it circular
   - Set a fixed size
